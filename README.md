@@ -2,7 +2,7 @@
 SISTEMA RESTAURANTE
 
 
-![Screenshot (634)](https://user-images.githubusercontent.com/36881559/151559914-f57304df-80d1-4aa7-baf9-79d839c9ff00.png)
+![Screenshot (637)](https://user-images.githubusercontent.com/36881559/151561108-6cf0bbbe-bcda-4c27-85ec-4b9ce0a052a1.png)
 
 DESCRIÇÃO 
 <p align="justify">Um Sistema Web desenvolvido com a Linguagem de Programação Java (JEE), utilizando Servlets e páginas Web em JSP. 
