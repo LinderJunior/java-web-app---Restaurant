@@ -1,6 +1,9 @@
 # Restaurante-CRUD
 SISTEMA RESTAURANTE
 
+
+![Screenshot (634)](https://user-images.githubusercontent.com/36881559/151559914-f57304df-80d1-4aa7-baf9-79d839c9ff00.png)
+
 DESCRIÇÃO 
 <p align="justify">Um Sistema Web desenvolvido com a Linguagem de Programação Java (JEE), utilizando Servlets e páginas Web em JSP. 
 Uma interface simples com um layout agradável reaproveitando os recursos do Bootstrap. Este sistema foi desenvolvido a 
