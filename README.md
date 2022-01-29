@@ -1,4 +1,4 @@
-# Restaurante-CRUD
+# Aplicação Web de Restauração 
 SISTEMA RESTAURANTE
 
 
