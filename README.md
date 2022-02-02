@@ -9,7 +9,7 @@ SISTEMA RESTAURANTE
 Uma interface simples com um layout agradável reaproveitando os recursos do Bootstrap. Este sistema foi desenvolvido a 
 nível académico, serviu como a base para desenvolvimento dos demais projectos recorrendo a linguagem de programação Java.</p>
 
-## 🛠⚙ PRÉ REQUISITOS 
+## ⚙ PRÉ REQUISITOS 
 -Java
 -Mysql
 -SGBD
