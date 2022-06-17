@@ -28,6 +28,12 @@ SET time_zone = "+00:00";
 -- Estrutura da tabela `parceiros`
 --
 
+
+CREATE SCHEMA IF NOT EXISTS `restaurante` DEFAULT CHARACTER SET utf8 ;
+USE `restaurante` ;
+
+
+
 DROP TABLE IF EXISTS `parceiros`;
 CREATE TABLE IF NOT EXISTS `parceiros` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
