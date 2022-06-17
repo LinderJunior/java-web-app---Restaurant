@@ -5,11 +5,6 @@
 
 <html>
 
-
-
-
-
-
 <head>
 <meta http-equiv="Content-Type" content="width=device-width, initial-scale=1" name="viewport">
 <title>Home</title>
@@ -17,50 +12,12 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	
 	<link rel="stylesheet" type="text/css" href ="fotos.css" />
-
 	
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
-    
-    
-    
-    <script>
-				window.addEventListener( "pageshow", function ( event ) {
-				var historyTraversal = event.persisted ||
-				( typeof window.performance != "undefined" &&
-				window.performance.navigation.type === 2 );
-				if ( historyTraversal ) {
-				window.location.reload();
-				}
-				}); 
-				
-			</script>
-			
-				<%
-				String usuario = null;
-			
-				
-					Cookie[] cookies = request.getCookies();
-					if(cookies !=null){
-					for(Cookie cookie : cookies){
-					if(cookie.getName().equals("usuarioLogado")) usuario = cookie.getValue();
-					}
-					}
-					if(usuario == null){
-					response.sendRedirect("nao_logado.html");
-					System.out.print("Nao logado Menu");
-					}
-				%>
-				
-    
-
-
+           
 </head>
 <body>
-	
-		
-
 	<nav class="navbar navbar-inverse">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
@@ -114,9 +71,6 @@
 			Best Restaurant in the City of Quelimane. We have everything you need to keep your health up to date with the best gastronomy in high quality! Our commitment and bringing your favorite dish every day <a href="sobre.jsp">here!</a> 
 		</div>
 		
-		
-		
-	
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
@@ -126,12 +80,9 @@
 		  </ol>
 		
 		  <!-- Wrapper for slides -->
-		  
-		  
-		  
-		  
+		  	  
  <ul id="album-fotos">
-	<li id="foto01"><span>Linder Junior</span></li>
+	<li id="foto01"><span>Linder</span></li>
 	<li id="foto02"><span>Sergey Brin usando o Glass</span></li>
 	<li id="foto03"><span>Leve e compacto</span></li>
 	<li id="foto04"><span>Sensação de uma tela de 50"</span></li>
@@ -142,13 +93,7 @@
 	<li id="foto06"><span>Informações importantes</span></li>
 	<li id="foto06"><span>Informações importantes</span></li>
 </ul>
-		  
-		  
-		  
-		  
-		  
-		  
-		  
+		  	  
 		  <div class="carousel-inner">
 		    <div class="item active">
 		      <img src="fotos/home.jpg" alt="Churasco de carde de porco" width="100%" height="55%"/>
@@ -157,15 +102,10 @@
 		        <p>Muito deliciosa, venha saborear!</p>
 		      </div>
 		    </div>
-		
-
-		</div>
-
-				
+	
+		</div>	
 	</div>
 	
-	
-
 		<dir  align="center" class="container";>
 			<footer class="footer navbar-fixed-bottom">
 				© 2020 Copyright - Linder's Restaurant

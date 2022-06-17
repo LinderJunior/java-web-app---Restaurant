@@ -12,46 +12,13 @@
     <script src="js/bootstrap.min.js"></script>
     
        
-    <script>
-				window.addEventListener( "pageshow", function ( event ) {
-				var historyTraversal = event.persisted ||
-				( typeof window.performance != "undefined" &&
-				window.performance.navigation.type === 2 );
-				if ( historyTraversal ) {
-				window.location.reload();
-				}
-				}); 
-				
-			</script>
-			
-				<%
-				String usuario = null;
-			
-				
-					Cookie[] cookies = request.getCookies();
-					if(cookies !=null){
-					for(Cookie cookie : cookies){
-					if(cookie.getName().equals("usuarioLogado")) usuario = cookie.getValue();
-					}
-					}
-					if(usuario == null){
-					response.sendRedirect("nao_logado.html");
-					System.out.print("Nao logado Menu");
-					}
-				%>
-				
-    
+   
     
 </head>
 <body>
 
 
 	
-		<%
-		String userName = null;
-
-		%>
-
 <nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
@@ -86,8 +53,8 @@
 	      <li><a href="sobre.jsp">Sobre Nós</a></li>
 	     </ul>
 	     <ul class="nav navbar-nav navbar-right">
-		      <li><a href="#"><span class="glyphicon glyphicon-user"></span> <%=userName%></a></li>
-		      <li><a onclick="return confirm('Deseja realmente sair do sitema <%=userName%>?')" href="Logout"><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+		      
+		      <li><a onclick="return confirm('Deseja realmente sair do sitema <>?')" href="Logout"><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
    		 </ul>
 	  </div>
 	</nav>
