@@ -17,7 +17,7 @@ public class ComumDAO {
 			ex.printStackTrace();
 			System.exit(0);
 		}
-
+		//Ola Linder Jr
 		return connection;
 
 	}
