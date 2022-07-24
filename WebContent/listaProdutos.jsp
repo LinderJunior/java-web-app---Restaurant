@@ -167,6 +167,8 @@
 					<td bgcolor="#d1cdc5" align="center"><b>Tipo</b></td>
 					<td bgcolor="#d1cdc5" align="center"><b>Data Validade</b></td>
 					<td bgcolor="#d1cdc5" align="center"><b>Acções</b></td>
+					<td bgcolor="#d1cdc5" align="center"><b>STATUS</b></td>
+					
 				</tr>
 			</thead>
 		
@@ -178,7 +180,9 @@
 					<td align="right" ${produto.preco>800?'bgcolor=red':'bgcolor=green'}><span style="color:white;">${produto.preco}${0}</span></td>
 					<td align="center" >${produto.tipo}</td>
 					<td align="center" >${produto.validade}</td>
-					<td align="center"><a onclick="return confirm('Deseja realmente editar o produto ${produto.nome}?')" href="produtoEditar?id=${produto.id}">Editar</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<a onclick="return confirm('Deseja realmente excluir o produto ${produto.nome}?')" href="produtoExcluir?id=${produto.id}">Excluir</a></td>
+					<td align="center"><a onclick="return confirm('Deseja realmente editar o produto ${produto.nome}?')" href="produtoEditar?id=${produto.id}">Editar</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<a onclick="return confirm('Deseja realmente excluir o produto ${produto.nome}?')" href="produtoExcluir?id=${produto.id}">Excluir</a> <a onclick="return confirm('Deseja realmente editar o produto ${produto.nome}?')" href="produtoExcluir?id=${produto.id}">ENVIAR</a>&nbsp;&nbsp;&nbsp;</td>
+					<td align="center" >${produto.tipo}</td>
+					
 				</tr>
 				
 			</tbody>
